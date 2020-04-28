@@ -16,4 +16,3 @@ class Post(models.Model): #models.Model so it is is saved in the database
     def __str__(self):
         return self.title
 
-    
