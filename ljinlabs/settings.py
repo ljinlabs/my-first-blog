@@ -25,7 +25,7 @@ SECRET_KEY = '%w#2(6wyf%s4&00jy_bwij1p9gf38o&^d--4&#7%=4+1ybfjuv'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['ljinlabs.pythonanywhere.com']
 
 
 # Application definition
