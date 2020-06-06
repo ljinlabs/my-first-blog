@@ -7,5 +7,13 @@
 </head>
 <body>
     <h1>Welcome to LJIN Labs</h1>
+    <div>
+        {% for post in posts %}
+            <h2><a href="#">{{post.title}}</a></h2>
+        <!--<hr>-->
+            <span><strong>{{post.author}}</strong>&nbsp;/&nbsp;{{post.published_date}}</span>
+            <p>{{post.text|linebreaksbr }}</p>
+        {% endfor %}
+    </div>
 </body>
 </html>
