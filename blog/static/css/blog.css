@@ -1,0 +1,27 @@
+/* my color palette (light to dark)
+#189de4
+#52b7e9
+#146ca4
+#46648c
+#242444
+*/
+
+.nanumsquare { 
+    font-family: 'NanumSquare', 
+    sans-serif !important; 
+}
+
+.mute {
+    color: #46648c;
+}
+
+.container {
+    text-align: center;
+}
+
+.mainHeader {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
