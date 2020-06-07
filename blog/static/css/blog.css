@@ -1,27 +1,33 @@
 /* my color palette (light to dark)
+#b6e2fa
 #189de4
 #52b7e9
 #146ca4
 #46648c
 #242444
 */
-
 .nanumsquare { 
     font-family: 'NanumSquare', 
     sans-serif !important; 
 }
 
-.mute {
-    color: #46648c;
+.my-navbar {
+    background-color: #146ca4;
 }
 
-.container {
-    text-align: center;
+.my-navbar-brand {
+    font-weight: bolder;
 }
 
-.mainHeader {
-    width: 100%;
-    display: inline-block;
-    text-align: center;
+.col-logo {
+    width: 80%;
 }
 
+.muted {
+    color: #b6e2fa;
+}
+
+.post-title {
+    border-bottom: 1px solid #46648c;
+    font-weight: bolder;
+}
