@@ -21,6 +21,8 @@
 
 .col-logo {
     width: 80%;
+    margin: auto;
+    display: block;
 }
 
 .muted {
@@ -30,4 +32,13 @@
 .post-title {
     border-bottom: 1px solid #46648c;
     font-weight: bolder;
+}
+
+footer {
+    background: #b6e2fa;
+}
+
+.my-footer {
+    text-align: center;
+    color: #888888
 }
